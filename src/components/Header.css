@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #03214a;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 48px;
+}

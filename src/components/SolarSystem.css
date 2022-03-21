@@ -1,0 +1,8 @@
+#solar-system {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  height: fit-content;
+}

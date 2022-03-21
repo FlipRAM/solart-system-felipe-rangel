@@ -1,0 +1,8 @@
+#missions {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: fit-content;
+}
