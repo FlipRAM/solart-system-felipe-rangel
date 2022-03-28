@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 300px;
   border: 3px solid white;
   border-radius: 10px;
   margin: 10px 0;
@@ -26,7 +26,41 @@
   transform-origin: center;
 }
 
+.planet-card:hover hr {
+  transition: all 2s ease-in-out;
+  transform: scale(0.5);
+}
+
 .planet-card:hover p {
   transform: rotate(-90deg) translateX(50px);
   transition: all 2s ease-in-out;
+}
+
+.planet-card img {
+  width: 200px;
+}
+
+@media screen and (min-width: 1368px) {
+  .planet-card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px 20px;
+  }
+  
+  .planet-card p {
+    font-size: 32px;
+  }
+  
+  .planet-card hr {
+    width: 100%;
+  }
+  
+  .planet-card img {
+    width: 200px;
+  }
 }
